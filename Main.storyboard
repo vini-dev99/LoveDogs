@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ZV0-2N-h1P">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Tab Bar Controller-->
+        <scene sceneID="Kra-UO-hKc">
+            <objects>
+                <tabBarController id="ZV0-2N-h1P" customClass="TabBarController" customModule="LoveDogs" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="2j3-JM-EJz">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="f6e-Jh-AwX" kind="relationship" relationship="viewControllers" id="1yH-RU-KGc"/>
+                        <segue destination="xv2-dR-oTJ" kind="relationship" relationship="viewControllers" id="wVd-k5-4TF"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rx1-OF-mf0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-463" y="116"/>
+        </scene>
+        <!--DogDay-->
+        <scene sceneID="56t-ax-iOK">
+            <objects>
+                <viewControllerPlaceholder storyboardName="DogDay" id="f6e-Jh-AwX" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="GNZ-PQ-5Rf"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nWb-HB-jIb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="416" y="-168"/>
+        </scene>
+        <!--DogResearch-->
+        <scene sceneID="bj6-Iz-Pp5">
+            <objects>
+                <viewControllerPlaceholder storyboardName="DogResearch" id="xv2-dR-oTJ" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="eLt-dT-fXL"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tCH-7y-NhA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="528" y="284"/>
+        </scene>
+    </scenes>
+</document>

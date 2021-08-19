@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Tab Bar Controller-->
+        <scene sceneID="ncg-HJ-PXt">
+            <objects>
+                <tabBarController id="Gpl-xY-4eN" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Pxg-8w-azM">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="PC4-ro-nTi" kind="relationship" relationship="viewControllers" id="AxL-Fc-hAY"/>
+                        <segue destination="kdF-UM-5Ux" kind="relationship" relationship="viewControllers" id="Jec-pp-lCV"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="N8E-nu-Ylq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1263" y="331"/>
+        </scene>
+        <!--DogDay-->
+        <scene sceneID="NAT-9c-lxS">
+            <objects>
+                <viewControllerPlaceholder storyboardName="DogDay" id="PC4-ro-nTi" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="uEB-i6-1lL"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JwR-aD-6u7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-492" y="87"/>
+        </scene>
+        <!--DogResearch-->
+        <scene sceneID="qvb-JE-CDr">
+            <objects>
+                <viewControllerPlaceholder storyboardName="DogResearch" id="kdF-UM-5Ux" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="dzQ-BI-uyb"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4qx-JK-9mf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-469" y="478"/>
+        </scene>
+    </scenes>
+</document>
